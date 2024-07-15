@@ -1,0 +1,38 @@
+
+.exper{
+    
+    /* margin: 50px 0px; */
+    /* margin-left: 150px; */
+    padding-left: 200px;
+    margin-top: 60px 0px;
+    /* background-color: rgb(238, 235, 231); */
+}
+.work-exp{
+    padding: 60px 0px;
+}
+
+
+.work-exp h1{
+    font-weight: bold;
+    color:rgb(14, 128, 128);
+}
+
+.work-exp hr{
+    color: blue;
+    width: 400px;
+    margin: 10px auto;
+    height: 5px;
+}
+
+
+
+@media(max-width:600px){
+    .exper{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .exper hr{
+        width: 280px;
+    }
+}

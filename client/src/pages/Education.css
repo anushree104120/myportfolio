@@ -1,0 +1,31 @@
+
+
+.education{
+    /* margin-left: 140px; */
+    padding-left: 200px;
+    margin-top: 60px 0px;
+    /* background-color: rgb(172, 248, 248); */
+}
+
+.ed{
+    color:rgb(14, 128, 128) ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width:600px){
+    .education{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .education h2{
+        padding-top: 20px;
+    }
+    .education hr{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+}
